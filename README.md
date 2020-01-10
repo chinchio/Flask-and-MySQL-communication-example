@@ -50,8 +50,9 @@ def home():
 <h1>Index</h1>
 ```
 
+下面這段code是將這個flask的application可以讓其他的電腦連接
+因為flask default好像是只允許執行程式的機器連接到該application
 ```python
 app.run(host= '0.0.0.0')
 ```
-這段code是將這個flask的application可以讓其他的電腦連接
-因為flask default好像是只允許執行程式的機器連接到該application
+
